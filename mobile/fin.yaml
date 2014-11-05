@@ -1,0 +1,47 @@
+internalName: finnish
+
+displayNames:
+  se: Suomagiella
+  en: Finnish
+  fi: Suomi
+
+locale: fi
+
+modes:
+  default: [
+    q w e r t y u i o p å,
+    a s d f g h j k l ö ä,
+    z x c v b n m w
+  ]
+  shift: [
+    Q W E R T Y U I O P Å,
+    A S D F G H J K L Ö Ä,
+    Z X C V B N M W
+  ]
+
+longpress:
+  A: Æ Ä Å Á À Â
+  O: Ø Ö
+  C: Č Ç
+  N: Ŋ
+  T: Ŧ
+  S: Š
+  Z: Ž
+  a: æ ä å á à â
+  o: ø ö
+  c: č ç
+  n: ŋ
+  t: ŧ
+  s: š
+  z: ž
+
+styles:
+  tablet:
+    actions:
+      backspace: [1, right, fill]
+      enter: [2, right, fill]
+      shift: [3, both, fill]
+  phone:
+    actions:
+      shift: [3, left, fill]
+      backspace: [3, right, fill]

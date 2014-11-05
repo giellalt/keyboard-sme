@@ -1,8 +1,9 @@
 internalName: northern_sami
 
 displayNames:
-  se: __LANGUAGE__
-  en: __LANGUAGE__
+  se: Sámegiella
+  en: Northern Sami
+  nb: Nordsamisk
 
 locale: se
 
