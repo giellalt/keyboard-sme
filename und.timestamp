@@ -1,4 +1,10 @@
-$Revision: 102305 $
+$Revision: 102974 $
+Ensure that the git working copies are up-to-date.
+
+r102312:
+Corrected replace string from __LANGUAGE__ to __UNDEFINED__.
+
+r102305:
 Added first version of a build infra for the mobile keyboards, with some basic
 templates for keyboard files.
 
