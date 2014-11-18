@@ -1,4 +1,7 @@
-$Revision: 102974 $
+$Revision: 102976 $
+Add strings for the space bar and the return key.
+
+r102974:
 Ensure that the git working copies are up-to-date.
 
 r102312:

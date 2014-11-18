@@ -45,3 +45,7 @@ styles:
     actions:
       shift: [3, left, fill]
       backspace: [3, right, fill]
+
+strings:
+  space: väli
+  return: rivinvaihto
