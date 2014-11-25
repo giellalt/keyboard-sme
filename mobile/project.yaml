@@ -1,17 +1,30 @@
+internalName: sami_keyboard
+
 locales:
   en:
-    name: "Divvun's Sami Keyboard"
-    description: "A mobile OS keyboard for Northern Sami, Finnish and Norwegian."
+    name: &bundleName "Northern Sami Keyboard"
+    description: "A mobile OS keyboard for Northern Sami, Finnish and Norwegian from the Divvun group at UiT."
   nb:
-    name: "Divvun sitt samisktastatur"
-    description: "Et mobiltastatur for nordsamisk, finsk og norsk."
+    name: "Nordsamisk tastatur"
+    description: "Et mobiltastatur for nordsamisk, finsk og norsk fra Divvun-gruppa."
+  "no":
+    name: "Nordsamisk tastatur"
+    description: "Et mobiltastatur for nordsamisk, finsk og norsk fra Divvun-gruppa."
 
-author: The Divvun Group, UiT
+author: The Divvun Group, UiT Norgga árktalaš universitehta
 email: feedback@divvun.no
 
 layouts: [sme, nob, fin]
 
+version: 1.0
+build: 1
+
 targets:
   android:
-    packageId: so.brendan.keyboards.sami
+    packageId: no.divvun.keyboards.sme
+    keyStore: /Users/brendan/git/softkbdgen/test.keystore
+    keyAlias: sami_keyboard
 
+  ios:
+    packageId: no.divvun.keyboards.sme
+    bundleName: *bundleName
