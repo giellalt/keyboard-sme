@@ -1,4 +1,48 @@
-$Revision: 103271 $
+$Revision: 132388 $
+Added support for drafting a keyboard based on existing cldr keyboard data.
+
+r132385:
+Renamed giellatekno.m4 to giella_macros.m4.
+
+r132359:
+Corrected syntax error in yaml file.
+
+r132355:
+Expanded the template keyboard layout and project fiels with data for
+desktop keyboards.
+
+r132351:
+Cleaned out everything related to defining an environmental variable for the
+language in question - not relevant for keyboards, and will only confuse users,
+or override more useful values of the variable.
+
+r132326:
+Modernised yaml structure for keyboard layouts.
+
+r132325:
+Added mobile- prefix to the sections for mobile keyboard specifications.
+
+r132313:
+Text cleanup: giellatekno -> Giella in appropriate places, improved syntax and
+formulations, corrections.
+
+r132251:
+Removed the desktop and mobile subdirs, moving all build code to the project
+root dir.
+
+r103881:
+no.uit.giella instead of no.divvun.
+
+r103627:
+Doing the real addition of that dir.
+
+r103625:
+Added a new dir mobile/doc/ to store development and other documentation in.
+
+r103616:
+Now with support for keyboard collection names.
+
+r103271:
 sami-ime -> giella-ime.
 
 r103241:
