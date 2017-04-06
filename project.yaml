@@ -22,7 +22,7 @@ build: 1
 targets:
   android:
     packageId: no.uit.giella.keyboards.sme
-    icon: sami-icon.pdf
+    icon: sme-icon.pdf
     keyStore: /Users/brendan/git/softkbdgen/test.keystore
     keyAlias: sme_keyboard
 
@@ -32,6 +32,6 @@ targets:
     packageId: no.uit.giella.keyboards.sme
     bundleName: *bundleName
     icon:
-        90: sami-icon-small.png
-        150: sami-icon.png
+        90: sme-icon-small.png
+        150: sme-icon.png
   osx: *AppleID
