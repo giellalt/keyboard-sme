@@ -59,19 +59,21 @@ deadKeys:
   iso-shift: ["`"]
 
 longpress:
-  A: Á Å Â Ä Æ
+  A: Á Å Â Ä Æ À 
   Á: Q
   C: Ç
   Č: X
   D: Đ
+  E: É È Ê
   G: Ǧ Ǥ 
   Ǧ: Y
-  I: Ï
+  I: Ï Í Ì
   K: Ǩ
   N: Ŋ
-  O: Õ Ø Ö
+  O: Ø Õ Ö Ó Ò
   Š: W
   T: Ŧ
+  U: Ú Ù
   Z: Ǯ Ʒ
 
   a: á å â ä æ
@@ -79,14 +81,16 @@ longpress:
   c: ç
   č: x
   d: đ
+  e: é è ê
   g: ǧ ǥ 
   ǧ: y
-  i: ï
+  i: ï í ì
   k: ǩ
   n: ŋ
-  o: õ ø ö
+  o: ø õ ö ó ò
   š: w
   t: ŧ
+  u: ú ù
   z: ǯ ʒ
 
 styles:
