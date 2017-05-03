@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Keyboards for sme_keyboard</title>
+</head>
+<body>
+    <p><strong>Legend:</strong></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Mode</th>
+          <th>Standard</th>
+          <th>Dead</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <th>Default</th>
+            <td>black</td>
+            <td>green</td>
+        </tr>
+        <tr>
+            <th>AltGr/Option</th>
+            <td>red</td>
+            <td>orange</td>
+        </tr>
+        <tr>
+            <th>Caps Lock (Mode Switch)</th>
+            <td>blue</td>
+            <td>pink</td>
+        </tr>
+        <tr>
+            <th>Caps Lock + AltGr/Option:</th>
+            <td>purple</td>
+            <td>green</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Davvisámegiella</h2>
+    <iframe style="border:none" src="northern_sami_keyboard.svg" width="960" height="320"></iframe><br>
+    <script>
+        "use strict";
+
+        var i, ii, nodes, node;
+
+        nodes = document.querySelectorAll(".key-dead");
+        for (i = 0, ii = nodes.length; i < ii; ++i) {
+            nodes[i].addEventListener('click', function(e) {
+                console.log(this);
+            }, false);
+        }
+    </script>
+</body>
+</html>
