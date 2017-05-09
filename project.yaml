@@ -32,4 +32,7 @@ targets:
     packageId: no.uit.giella.keyboards.sme
     bundleName: *bundleName
     icon: images/sme-icon.png
-  osx: *AppleID
+  osx:
+    <<: *AppleID
+    icon: images/sme-icon.png
+    codeSignId: "my-test-installer"
