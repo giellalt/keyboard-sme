@@ -21,8 +21,8 @@ build: 1
 
 targets:
   android:
-    packageId: no.uit.giella.keyboards.sme
-    icon: sme-icon.pdf
+    packageId: no.uit.giella.keyboards.__UND__
+    icon: images/__UND__-icon.pdf
     keyStore: /Users/brendan/git/softkbdgen/test.keystore
     keyAlias: sme_keyboard
 
@@ -31,7 +31,5 @@ targets:
     provisioningProfileId: Test
     packageId: no.uit.giella.keyboards.sme
     bundleName: *bundleName
-    icon:
-        90: sme-icon-small.png
-        150: sme-icon.png
+    icon: images/__UND__-icon.png
   osx: *AppleID
