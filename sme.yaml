@@ -23,25 +23,25 @@ modes:
   # default
   iso-default: &default |
     ' 1 2 3 4 5 6 7 8 9 0 + ´
-    á š e r t ŧ u i o p å ŋ
+    á š e r t y u i o p å ŋ
     a s d f g h j k l ø æ đ
     ž z č c v b n m , . -
   # shift+caps?
   iso-shift: |
     § ! " # $ % & / ( ) = ? `
-    Á Š E R T Ŧ U I O P Å Ŋ
+    Á Š E R T Y U I O P Å Ŋ
     A S D F G H J K L Ø Æ Đ
     Ž Z Č C V B N M ; : _
   # caps
   iso-caps: |
     ' 1 2 3 4 5 6 7 8 9 0 + ´
-    Á Š E R T Ŧ U I O P Å Ŋ
+    Á Š E R T Y U I O P Å Ŋ
     A S D F G H J K L Ø Æ Đ
     Ž Z Č C V B N M , . -
   # opt
   iso-alt: |
     ' © ™ £ € ˆ § | [ ] ˝ ± \u{301}
-    q w é ˇ þ y ˀ ʼ œ ˙ ˚ ¨
+    q w é ˇ þ ŧ ˀ ʼ œ ˙ ˚ ¨
     ¯ ß ð ƒ . ˛ ˘ ˜ - ö ä @
     < ÷ x ¸ ‹ › ‘ ’ ‚ … –
   # opt+shift+cmd?+caps?
@@ -53,7 +53,7 @@ modes:
   # opt+caps
   iso-caps+alt: |
     ' © ™ £ € ˆ § | [ ] ˝ ± \u{301}
-    Q W É ˇ Þ Y ˀ ʼ Œ ˙ ˚ ¨
+    Q W É ˇ Þ Ŧ ˀ ʼ Œ ˙ ˚ ¨
     ¯ SS Ð ƒ . ˛ ˘ ˜ - Ö Ä @
     < ÷ X ¸ ‹ › ‘ ’ ‚ … –
   # ctrlL+cmd?+optL?+caps?+shift? ctrlL+optR+cmd?+optL?+caps?+shiftL?
