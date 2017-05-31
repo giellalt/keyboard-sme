@@ -9,6 +9,8 @@ displayNames:
 
 locale: se
 
+supportedTargets: [ios, android]
+
 modes:
   mobile-default: |
     á š e r t y u i o p ŋ
