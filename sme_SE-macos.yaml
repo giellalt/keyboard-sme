@@ -1,16 +1,16 @@
 ### Generated from se-t-k0-osx.xml on 2017-05-31 at 13:41.
 
-internalName: sme_NO-mac
+internalName: sme_SE-mac
 
 displayNames:
-  se: Davvisámegiella (Norga)
-  en: Northern Sami (Norway)
-  fi: Pohjoissaame (Norja)
-  nb: Nordsamisk (Norge)
-  'no': Nordsamisk (Norge)
-  nn: Nordsamisk (Noreg)
-  da: Nordsamisk (Norge)
-  sv: Nordsamiska (Norge)
+  se: Davvisámegiella (Ruoŧŧa)
+  en: Northern Sami (Sweden)
+  fi: Pohjoissaame (Ruotsi)
+  nb: Nordsamisk (Sverige)
+  'no': Nordsamisk (Sverige)
+  nn: Nordsamisk (Sverige)
+  da: Nordsamisk (Sverige)
+  sv: Nordsamiska (Sverige)
 
 locale: se
 
