@@ -1,11 +1,20 @@
 ### Generated from se-t-k0-osx.xml on 2017-05-31 at 13:41.
 
-internalName: se-t-k0-osx
+internalName: sme_NO-mac
 
 displayNames:
-  se: Northern Sami
+  se: Davvisámegiella (Norga)
+  en: Northern Sami (Norway)
+  fi: Pohjoissaame (Norja)
+  nb: Nordsamisk (Norge)
+  'no': Nordsamisk (Norge)
+  nn: Nordsamisk (Noreg)
+  da: Nordsamisk (Norge)
+  sv: Nordsamiska (Norge)
 
 locale: se
+
+supportedTargets: [osx, x11, svg]
 
 modes:
   # default
