@@ -1,11 +1,18 @@
 ### Generated from se-t-k0-windows.xml on 2017-05-31 at 14:15.
 
-internalName: se-t-k0-windows
+internalName: sma_NO-windows
 
 displayNames:
-  se: Sami Extended Norway
+  se: Davvisámegiella (Norga)
+  sma: Åarjelsaemien gïele (Nöörje)
+  en: Northern Sami (Norway)
+  fi: Pohjoissaame (Norja)
+  nb: Nordsamisk (Norge)
+  sv: Nordsamiska (Norge)
 
 locale: se
+
+supportedTargets: [win, x11, svg]
 
 modes:
   # default
