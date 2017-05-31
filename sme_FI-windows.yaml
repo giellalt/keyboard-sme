@@ -1,11 +1,18 @@
 ### Generated from se-FI-t-k0-windows.xml on 2017-05-31 at 14:26.
 
-internalName: se-FI-t-k0-windows
+internalName: sme_FI-windows
 
 displayNames:
-  se: Sami Extended Finland-Sweden
+  se: Davvisámegiella (Suopma)
+  sma: Åarjelsaemien gïele (Nöörje)
+  en: Northern Sami (Finland)
+  fi: Pohjoissaame (Suomi)
+  nb: Nordsamisk (Finland)
+  sv: Nordsamiska (Finland)
 
 locale: se
+
+supportedTargets: [win, x11, svg]
 
 modes:
   # default
