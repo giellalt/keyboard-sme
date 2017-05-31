@@ -32,9 +32,12 @@ targets:
     packageId: no.uit.giella.keyboards.sme
     bundleName: *bundleName
     icon: images/sme-icon.png
+
   osx:
     <<: *AppleID
     icon: images/sme-keyboard-menu-icon.png
     codeSignId: "Developer ID Installer: The University of Tromso (2K5J2584NX)"
-    version: 0.1.0
+    version: 1.0.0-beta2
     resources: doc
+    readme: readme.html
+    background: background.png
