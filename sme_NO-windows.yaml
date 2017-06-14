@@ -4,10 +4,13 @@ internalName: sme_NO-windows
 
 displayNames:
   se: Davvisámegiella (Norga)
-  sma: Åarjelsaemien gïele (Nöörje)
+  sma: Noerhtesaemiengïele (Nöörje)
   en: Northern Sami (Norway)
   fi: Pohjoissaame (Norja)
   nb: Nordsamisk (Norge)
+  'no': Nordsamisk (Norge)
+  nn: Nordsamisk (Norge)
+  da: Nordsamisk (Norge)
   sv: Nordsamiska (Norge)
 
 locale: se

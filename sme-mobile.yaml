@@ -1,10 +1,14 @@
-internalName: sme_mobile_keyboard
+internalName: sme
 
 displayNames:
   se: Davvisámegiella
+  sma: Noerhtesaemiengïele
   en: Northern Sami
   fi: Pohjoissaame
   nb: Nordsamisk
+  'no': Nordsamisk
+  nn: Nordsamisk
+  da: Nordsamisk
   sv: Nordsamiska
 
 locale: se

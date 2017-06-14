@@ -4,10 +4,13 @@ internalName: sme_FI-windows
 
 displayNames:
   se: Davvisámegiella (Suopma)
-  sma: Åarjelsaemien gïele (Nöörje)
+  sma: Noerhtesaemiengïele (Såevmie)
   en: Northern Sami (Finland)
   fi: Pohjoissaame (Suomi)
   nb: Nordsamisk (Finland)
+  'no': Nordsamisk (Finland)
+  nn: Nordsamisk (Finland)
+  da: Nordsamisk (Finland)
   sv: Nordsamiska (Finland)
 
 locale: se
