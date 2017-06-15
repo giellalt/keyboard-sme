@@ -40,3 +40,9 @@ targets:
     resources: doc
     readme: readme.html
     background: background.png
+
+  win:
+    appName: *bundleName
+    version: 0.1.0
+    url: "http://divvun.no"
+    uuid: "replace-with-real-uuid-one-for-each-language"
