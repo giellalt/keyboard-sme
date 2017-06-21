@@ -17,6 +17,10 @@ locale: se
 
 supportedTargets: [win, x11, svg]
 
+targets:
+  win:
+    locale: se-Latn-FI
+
 modes:
   # default
   iso-default: |
