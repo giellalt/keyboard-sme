@@ -60,12 +60,31 @@ modes:
     \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
     \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} ; ' \u{1C}
     ` \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
-  # cmd+opt+caps?
+  # Command key layouts:
+  osx-cmd: |
+    § 1 2 3 4 5 6 7 8 9 0 + ´
+      q w e r t y u i o p å ¨
+      a s d f g h j k l ö ä '
+    < z x c v b n m , . -
+  # shift+caps?
+  osx-cmd+shift: |
+    ° ! " # € % & / ( ) = ? `
+      Q W E R T Y U I O P Å ^
+      A S D F G H J K L Ö Ä *
+    > Z X C V B N M ; : _
+  # "
+  # cmd+opt
   osx-cmd+alt: |
-    € © ™ £ € § \u{0} | [ ] ≈ ± `
-    • , é \u{0} ŧ µ ü ı œ þ ˙ ˜
-    ¯ ß ð ƒ \u{0} ħ ˝ ª ł ø æ '
-    ≤ ÷ đ ¸ ‹ › ‘ ’ ‚ … –
+    ¶ © ™ £ $ ∞ § | [ ] ≈ ± ´
+      • Ω é ® † µ ü ı œ π ˙ ~
+       ß ∂ ƒ ¸ ˛ √ ª ﬁ ø æ @
+    ≤ ÷ ≈ ç ‹ › ‘ ’ ‚ … –
+  # opt+shift+cmd?+caps?
+  osx-cmd+alt+shift: |
+    • ¡ ” ¥ ¢ ‰ ¶ \ { } ≠ ¿ `
+      ° ˝ É √ ‡ ˜ Ü ˆ Œ ∏ ˚ ^
+      ◊ ∑ ∆ ∫ ¯ ˘ ¬ º ﬂ Ø Æ ’
+    ≥ ⁄ ˇ Ç « » “ ” „ · —
 
 deadKeys:
   iso-default: ['´']
