@@ -39,9 +39,9 @@ modes:
   # opt
   iso-alt: |
     ' © ™ £ € ˆ § | [ ] ˝ ± \u{301}
-      q w é ˇ ŧ þ ˀ ʼ œ ˙ ˚ ¨
-      ¯ ß ð ƒ . ˛ ˘ ˜ - ö ä @
-    < ÷ x ¸ ‹ › ‘ ’ ‚ … –
+      q w é ˇ ŧ þ ˀ ï œ ʼ ˚ ¨
+      â ß ð ƒ ǧ ǥ ˘ ǩ - ö ä @
+    < ÷ x ˙ ‹ › ‘ ’ ‚ … –
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
     § ¡       ® ¥       ¢       \u{302} ¶       \       {       }       \u{30B} ¿       \u{300}
@@ -51,8 +51,8 @@ modes:
   # opt+caps
   iso-caps+alt: |
     ' © ™  £ € ˆ § | [ ] ˝ ± \u{301}
-      Q W  É ˇ Ŧ Þ ˀ ʼ Œ ˙ ˚ ¨
-      ¯ SS Ð ƒ . ˛ ˘ ˜ - Ö Ä @
+      Q W  É ˇ Ŧ Þ ˀ Ï Œ ˙ ˚ ^
+      Â SS Ð ƒ Ǧ Ǥ ˘ Ǩ - Ö Ä @
     < ÷ X  ¸ ‹ › ‘ ’ ‚ … –
   # ctrlL+cmd?+optL?+caps?+shift? ctrlL+optR+cmd?+optL?+caps?+shiftL?
   iso-ctrl: |
