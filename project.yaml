@@ -29,14 +29,14 @@ targets:
   ios: &AppleID
     codeSignId: "Developer ID Installer: The University of Tromso (2K5J2584NX)"
     provisioningProfileId: Test
-    packageId: no.uit.giella
+    packageId: no.uit.giella.keyboards.sme
     bundleName: *bundleName
     icon: images/sme-icon.png
 
   osx:
     <<: *AppleID
     icon: images/sme-keyboard-menu-icon.png
-    version: 1.0.0
+    version: 1.0.2
     resources: doc
     readme: readme.html
     background: background.png
