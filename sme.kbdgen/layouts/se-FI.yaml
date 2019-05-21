@@ -8,6 +8,7 @@ displayNames:
   nn: Nordsamisk (Finland)
   da: Nordsamisk (Finland)
   sv: Nordsamiska (Finland)
+  se-FI: Davvisámegiella (Suopma)
 modes:
   mac:
     default: |

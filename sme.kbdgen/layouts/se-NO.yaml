@@ -8,6 +8,7 @@ displayNames:
   nn: Nordsamisk (Noreg)
   da: Nordsamisk (Norge)
   sv: Nordsamiska (Norge)
+  se-NO: Davvisámegiella (Norga)
 modes:
   mac:
     default: |

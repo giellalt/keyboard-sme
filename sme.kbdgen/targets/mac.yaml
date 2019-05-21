@@ -4,3 +4,4 @@ packageId: no.uit.giella.keyboards.sme
 bundleName: North Sami Keyboard
 icon: images/sme-keyboard-menu-icon.png
 version: 1.0.2
+build: 1

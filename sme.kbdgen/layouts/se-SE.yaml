@@ -8,6 +8,7 @@ displayNames:
   nn: Nordsamisk (Sverige)
   da: Nordsamisk (Sverige)
   sv: Nordsamiska (Sverige)
+  se-SE: Davvisámegiella (Ruoŧŧa)
 modes:
   mac:
     default: |
