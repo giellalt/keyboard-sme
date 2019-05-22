@@ -2,7 +2,7 @@
 # https://github.com/divvun/divvun-ci-config/azure/generate-keyboard.sh
 # YOU SHOULD NOT EDIT THIS MANUALLY 
 # Script commit 4cae748350b662d850d252a2b50b0b39de204280
-# Generated on 20190522103815
+# Generated on 20190522144858
 
 trigger:
 - master
@@ -42,7 +42,7 @@ jobs:
       kbdgen -R -t mac --ci -o output --logging debug .
       cp "$(System.DefaultWorkingDirectory)/sme.kbdgen/output/$TARGET_BUNDLE_NAME $TARGET_VERSION.pkg" "$(System.DefaultWorkingDirectory)/sme.kbdgen/output/keyboard-sme.pkg"
       cd ..
-      sh divvun-ci-config/repo/scripts/pahkat_deploy_svn.sh https://pahkat.uit.no/repo/macos-staging "$(System.DefaultWorkingDirectory)/sme.kbdgen/output/keyboard-sme.pkg" keyboard-sme $TARGET_VERSION
+      sh divvun-ci-config/repo/scripts/pahkat_deploy_svn.sh https://pahkat.uit.no/repo/macos "$(System.DefaultWorkingDirectory)/sme.kbdgen/output/keyboard-sme.pkg" keyboard-sme $TARGET_VERSION
     displayName: 'Run kbdgen'
     env:
       DEPLOY_SVN_USER: $(svnUser)
@@ -94,7 +94,7 @@ jobs:
       Copy-Item $sourcePath "$(System.DefaultWorkingDirectory)\sme.kbdgen\output\keyboard-sme.exe"
       Copy-Item $sourcePathWin7 "$(System.DefaultWorkingDirectory)\sme.kbdgen\output\keyboard-sme.win7.exe"
       cd ..
-      PahkatDeploySvn -SvnUrl https://pahkat.uit.no/repo/windows-staging -Artifact "$(System.DefaultWorkingDirectory)\sme.kbdgen\output\keyboard-sme.exe" -Package keyboard-sme -Version $version
+      PahkatDeploySvn -SvnUrl https://pahkat.uit.no/repo/windows -Artifact "$(System.DefaultWorkingDirectory)\sme.kbdgen\output\keyboard-sme.exe" -Package keyboard-sme -Version $version
     displayName: 'Run kbdgen'
     env:
       CODESIGN_PW: $(pfxPassword)
@@ -154,6 +154,7 @@ jobs:
       export TARGET_BUNDLE_NAME=$(cat targets/ios.yaml | grep 'bundleName:' | cut -c 13-)
       export TARGET_VERSION=$(cat targets/ios.yaml | grep 'version:' | cut -c 10-)
       kbdgen -R -t ios --ci -o output --github-username $GITHUB_USERNAME --github-token $GITHUB_TOKEN --logging debug .
+      fastlane pilot upload --skip_submission --skip_waiting_for_build_processing --ipa output/ios-build/ipa/HostingApp.ipa
     displayName: 'Run kbdgen'
     env:
       TEAM_ID: 2K5J2584NX
@@ -195,6 +196,9 @@ jobs:
       kbdgen -R -t android --ci -o output --github-username $GITHUB_USERNAME --github-token $GITHUB_TOKEN --logging debug .
       # todo: fix this when kbdgen naming works
       cp "$(System.DefaultWorkingDirectory)/sme.kbdgen/output/-"$TARGET_VERSION"_release.apk" "$(System.DefaultWorkingDirectory)/sme.kbdgen/output/keyboard-sme.apk"
+      pushd output/deps/giella-ime
+      ./gradlew publishApk
+      popd
     displayName: 'Run kbdgen'
   - task: PublishBuildArtifacts@1
     inputs:
