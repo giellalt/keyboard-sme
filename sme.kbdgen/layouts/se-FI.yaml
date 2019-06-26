@@ -97,6 +97,42 @@ modes:
       \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
       \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
       \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+  chrome:
+    default: |
+      § 1 2 3 4 5 6 7 8 9 0 + ´
+        á š e r t y u i o p å ŋ
+        a s d f g h j k l ö ä đ
+      ž z č c v b n m , . -
+    shift: |
+      ½ ! " # ¤ % & / ( ) = ? `
+        Á Š E R T Y U I O P Å Ŋ
+        A S D F G H J K L Ö Ä Đ
+      Ž Z Č C V B N M ; : _
+    caps: |
+      § 1 2 3 4 5 6 7 8 9 0 + ´
+        Á Š E R T Y U I O P Å Ŋ
+        A S D F G H J K L Ö Ä Đ
+      Ž Z Č C V B N M , . -
+    caps+shift: |
+      ½ ! " # ¤ % & / ( ) = ? `
+        á š e r t y u i o p å ŋ
+        a s d f g h j k l ö ä đ
+      ž z č c v b n m ; : _
+    alt: |
+      |     \u{0} @     £     $     €     \u{0} {     [     ]     }     \     \u{0}
+            q     w     €     \u{0} ŧ     \u{0} \u{0} ï     õ     \u{0} ¨     ~
+            â     \u{0} \u{0} \u{0} ǧ     ǥ     \u{0} ǩ     \u{0} ø     æ     '
+      ǯ     ʒ     x     \u{0} \u{0} \u{0} \u{0} µ     <     >     \u{0}
+    alt+shift: |
+      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+            Q     W     \u{0} \u{0} Ŧ     \u{0} \u{0} Ï     Õ     \u{0} ^     ˇ
+            Â     \u{0} \u{0} \u{0} Ǧ     Ǥ     \u{0} Ǩ     \u{0} Ø     Æ     *
+      Ǯ     Ʒ     X     \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+    ctrl: |
+      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+      \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
 transforms:
   '-':
     ' ': '-'
@@ -655,4 +691,5 @@ deadKeys:
 targets:
   win:
     locale: se-Latn-FI
-
+  chrome:
+    locale: fi
