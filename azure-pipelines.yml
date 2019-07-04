@@ -233,6 +233,5 @@ jobs:
       # export TARGET_BUNDLE_NAME=$(cat targets/android.yaml | grep 'bundleName:' | cut -c 13-)
       # export TARGET_VERSION=$(cat targets/android.yaml | grep 'version:' | cut -c 10-)
       # export ANDROID_KEYALIAS='no.uit.giella.keyboards.sme'
-      kbdgen -R -t chrome --ci -o output --github-username $GITHUB_USERNAME --github-token $GITHUB_TOKEN --logging trace sme.kbdgen
-      
+      kbdgen -R -t chrome --ci -o output --github-username $GITHUB_USERNAME --github-token $GITHUB_TOKEN --logging debug sme.kbdgen
     displayName: 'Run kbdgen'
