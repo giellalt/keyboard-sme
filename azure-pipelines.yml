@@ -227,8 +227,9 @@ jobs:
       python3 -m venv $HOME/env/py3
       source $HOME/env/py3/bin/activate
       source divvun-ci-config/enc/env.sh
-      cd kbdgen
+      pushd kbdgen
       poetry install
+      popd
       # export TARGET_BUNDLE_NAME=$(cat targets/android.yaml | grep 'bundleName:' | cut -c 13-)
       # export TARGET_VERSION=$(cat targets/android.yaml | grep 'version:' | cut -c 10-)
       # export ANDROID_KEYALIAS='no.uit.giella.keyboards.sme'
