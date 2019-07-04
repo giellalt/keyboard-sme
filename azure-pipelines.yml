@@ -211,6 +211,7 @@ jobs:
   steps:
   - script: |
       set -e
+      sudo apt-get install -y python3-venv
       curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python3
       git clone --branch feature/chromeos https://github.com/divvun/kbdgen.git
       git clone https://github.com/divvun/divvun-ci-config.git
