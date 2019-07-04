@@ -236,7 +236,3 @@ jobs:
       kbdgen -R -t chrome --ci -o output --github-username $GITHUB_USERNAME --github-token $GITHUB_TOKEN --logging trace sme.kbdgen
       
     displayName: 'Run kbdgen'
-  - task: PublishBuildArtifacts@1
-    inputs:
-      pathtoPublish: '$(System.DefaultWorkingDirectory)/output/chrome-*.zip'
-      artifactName: chrome
