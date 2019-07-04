@@ -205,3 +205,36 @@ jobs:
     inputs:
       pathtoPublish: '$(System.DefaultWorkingDirectory)/sme.kbdgen/output/keyboard-sme.apk'
       artifactName: android
+- job: 'Chrome OS'
+  pool:
+    vmImage: 'ubuntu-16.04'
+  steps:
+  - script: |
+      set -e
+      curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python3
+      git clone --branch feature/chromeos https://github.com/divvun/kbdgen.git
+      git clone https://github.com/divvun/divvun-ci-config.git
+      cd divvun-ci-config
+      openssl aes-256-cbc -d -in config.txz.enc -pass pass:$DIVVUN_KEY -md md5 | tar xfJ -
+      cp -R enc/creds $HOME
+    displayName: 'Install prerequisites'
+    env:
+      DIVVUN_KEY: $(divvunKey)
+  - script: |
+      set -e
+      source $HOME/.poetry/env
+      python3 -m venv $HOME/env/py3
+      source $HOME/env/py3/bin/activate
+      source divvun-ci-config/enc/env.sh
+      cd kbdgen
+      poetry install
+      # export TARGET_BUNDLE_NAME=$(cat targets/android.yaml | grep 'bundleName:' | cut -c 13-)
+      # export TARGET_VERSION=$(cat targets/android.yaml | grep 'version:' | cut -c 10-)
+      # export ANDROID_KEYALIAS='no.uit.giella.keyboards.sme'
+      kbdgen -R -t chrome --ci -o output --github-username $GITHUB_USERNAME --github-token $GITHUB_TOKEN --logging trace sme.kbdgen
+      
+    displayName: 'Run kbdgen'
+  - task: PublishBuildArtifacts@1
+    inputs:
+      pathtoPublish: '$(System.DefaultWorkingDirectory)/output/chrome-*.zip'
+      artifactName: chrome
