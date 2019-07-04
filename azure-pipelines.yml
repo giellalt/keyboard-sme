@@ -205,7 +205,7 @@ jobs:
     inputs:
       pathtoPublish: '$(System.DefaultWorkingDirectory)/sme.kbdgen/output/keyboard-sme.apk'
       artifactName: android
-- job: 'Chrome OS'
+- job: 'Chrome'
   pool:
     vmImage: 'ubuntu-16.04'
   steps:
