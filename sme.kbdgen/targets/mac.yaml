@@ -3,5 +3,5 @@ provisioningProfileId: Test
 packageId: no.uit.giella.keyboards.sme
 bundleName: North Sami Keyboard
 icon: images/sme-keyboard-menu-icon.png
-version: 1.0.3
+version: 1.0.4
 build: 1
