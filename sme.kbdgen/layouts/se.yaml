@@ -145,9 +145,9 @@ strings:
 targets:
   ios:
     legacyName: northern_sami_keyboard
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-sme
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-sme?channel=nightly&platform=mobile
     spellerPath: se.bhfst
   android:
     legacyName: northern_sami_keyboard
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-sme
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-sme?channel=nightly&platform=mobile
     spellerPath: se.bhfst
