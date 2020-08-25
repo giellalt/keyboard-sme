@@ -43,4 +43,4 @@ jobs:
         with:
           payload-path: "${{ steps.build.outputs['payload-path'] }}"
           keyboard-type: ${{ matrix.type }}
-          channel: nightly
+          channel: "${{ steps.build.outputs.channel }}"
