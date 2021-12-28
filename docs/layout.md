@@ -7,6 +7,7 @@
 |**Standard**| black   | red          | blue                    | purple                   |
 |**Deadkey** | green   | orange       | pink                    | green                    |
 
+
 ## Davvisámegiella, Suopma (macOS)
 
 ![Alt text](sme_FI-mac.svg)
