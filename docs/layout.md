@@ -8,30 +8,30 @@
 |**Deadkey** | green   | orange       | pink                    | green                    |
 
 
-## Davvisámegiella, Suopma (macOS)
+# Davvisámegiella, Suopma (macOS)
 
 ![Alt text](sme_FI-mac.svg)
 
-## Davvisámegiella, Suopma (Windows)
+# Davvisámegiella, Suopma (Windows)
 
 ![Alt text](sme_FI-windows.svg)
   
-## Davvisámegiella, Norga (macOS)
+# Davvisámegiella, Norga (macOS)
 
 ![Alt text](sme_NO-mac.svg)
 
-## Davvisámegiella Norga (Windows)
+# Davvisámegiella Norga (Windows)
 
 ![Alt text](sme_NO-windows.svg)
 
-## Davvisámegiella, Ruoŧŧa (macOS)
+# Davvisámegiella, Ruoŧŧa (macOS)
 
 ![Alt text](sme_SE-mac.svg)
 
-## Davvisámegiella, Ruoŧŧa (Windows)
+# Davvisámegiella, Ruoŧŧa (Windows)
 
 ![Alt text](sme_SE-windows.svg)
 
-## Davvisámegiella (12" iPad)
+# Davvisámegiella (12" iPad)
 
 ![Alt text](sme_keyboard.svg)
