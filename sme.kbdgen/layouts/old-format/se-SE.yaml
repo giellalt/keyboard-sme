@@ -1,20 +1,18 @@
 displayNames:
-  se: Davvisámegiella (Suopma)
-  sma: Noerhtesaemiengïele (Såevmie)
-  en: Northern Sami (Finland)
-  fi: Pohjoissaame (Suomi)
-  nb: Nordsamisk (Finland)
-  'no': Nordsamisk (Finland)
-  nn: Nordsamisk (Finland)
-  da: Nordsamisk (Finland)
-  sv: Nordsamiska (Finland)
-  se-FI: Davvisámegiella (Suopma)
+  se: Davvisámegiella (Ruoŧŧa)
+  sma: Noerhtesaemiengïele (Sveerje)
+  en: Northern Sami (Sweden)
+  fi: Pohjoissaame (Ruotsi)
+  nb: Nordsamisk (Sverige)
+  'no': Nordsamisk (Sverige)
+  nn: Nordsamisk (Sverige)
+  da: Nordsamisk (Sverige)
+  sv: Nordsamiska (Sverige)
+  se-SE: Davvisámegiella (Ruoŧŧa)
   
-windows:
-  primary:
-    config:
-      locale: se-Latn-FI
-    layers:
+layers:
+  windows:
+    primary:
       default: |
         § 1 2 3 4 5 6 7 8 9 0 + ´
           á š e r t y u i o p å ŋ
@@ -50,21 +48,9 @@ windows:
         \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
         \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
         \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-        
-    deadKeys:
-      default: [´]
-      shift: ['`']
-      caps: [´]
-      caps+shift: ['`']
-      alt: ['~', ¨]
-      alt+shift: [^, ˇ]
       
-
-chrome:
-  primary:
-    config:
-      locale: fi
-    layers:
+  chrome:
+    primary:
       default: |
         § 1 2 3 4 5 6 7 8 9 0 + ´
           á š e r t y u i o p å ŋ
@@ -100,44 +86,43 @@ chrome:
         \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
         \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
         \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-    
-macos:
-  primary:
-    layers:
+      
+  mac:
+    primary:
       default: |
         ' 1 2 3 4 5 6 7 8 9 0 + ´
-          á š e r t y u i o p å ŋ
-          a s d f g h j k l ö ä đ
+        á š e r t y u i o p å ŋ
+        a s d f g h j k l ö ä đ
         ž z č c v b n m , . -
       shift: |
         § ! " # $ % & / ( ) = ? `
-          Á Š E R T Y U I O P Å Ŋ
-          A S D F G H J K L Ö Ä Đ
+        Á Š E R T Y U I O P Å Ŋ
+        A S D F G H J K L Ö Ä Đ
         Ž Z Č C V B N M ; : _
       caps: |
         ' 1 2 3 4 5 6 7 8 9 0 + ´
-          Á Š E R T Y U I O P Å Ŋ
-          A S D F G H J K L Ö Ä Đ
+        Á Š E R T Y U I O P Å Ŋ
+        A S D F G H J K L Ö Ä Đ
         Ž Z Č C V B N M , . -
       alt: |
         ' © ™ £ € ˆ § | [ ] ˝ ± \u{301}
-          q w é ˇ ŧ þ ˀ ʼ œ ˙ ˚ ¨
-          ¯ ß ð ƒ . ˛ ˘ ˜ - ø æ @
+        q w é ˇ ŧ þ ˀ ʼ œ ˙ ˚ ¨
+        ¯ ß ð ƒ . ˛ ˘ ˜ - ø æ @
         < ÷ x ¸ ‹ › ‘ ’ ‚ … –
       alt+shift: |
-        § ¡       ® ¥       ¢       \u{302} ¶       \       {       }       \u{30B} ¿       \u{300}
-          Q       W É       \u{30C} Ŧ       Þ       \u{309} \u{31B} Œ       \u{307} \u{30A} \u{308}
-          \u{304} № Ð       ʔ       \u{323} \u{328} \u{306} \u{303} \u{335} Ø       Æ       *
-        > ⁄       X \u{327} «       »       “       ”       „       ·       —
+        § ¡ ® ¥ ¢ \u{302} ¶ \ { } \u{30B} ¿ \u{300}
+        Q W É \u{30C} Ŧ Þ \u{309} \u{31B} Œ \u{307} \u{30A} \u{308}
+        \u{304} № Ð ʔ \u{323} \u{328} \u{306} \u{303} \u{335} Ø Æ *
+        > ⁄ X \u{327} « » “ ” „ · —
       caps+alt: |
-        ' © ™  £ € ˆ § | [ ] ˝ ± \u{301}
-          Q W  É ˇ Ŧ Þ ˀ ʼ Œ ˙ ˚ ¨
-          ¯ SS Ð ƒ . ˛ ˘ ˜ - Ø Æ @
-        < ÷ X  ¸ ‹ › ‘ ’ ‚ … –
+        ' © ™ £ € ˆ § | [ ] ˝ ± \u{301}
+        Q W É ˇ Ŧ Þ ˀ ʼ Œ ˙ ˚ ¨
+        ¯ SS Ð ƒ . ˛ ˘ ˜ - Ø Æ @
+        < ÷ X ¸ ‹ › ‘ ’ ‚ … –
       ctrl: |
         0 1 2 3 4 5 6 7 8 9 0 \u{1F} =
-          \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
-          \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} ; ' \u{1C}
+        \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
+        \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} ; ' \u{1C}
         ` \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
       cmd: |
         § 1 2 3 4 5 6 7 8 9 0 + ´
@@ -146,30 +131,19 @@ macos:
         < z x c v b n m , . -
       cmd+shift: |
         ° ! " # € % & / ( ) = ? `
-          Q W E R T Y U I O P Å ˆ
+          Q W E R T Y U I O P Å ^
           A S D F G H J K L Ö Ä *
         > Z X C V B N M ; : _
       cmd+alt: |
-        € © ™ £ € § \u{0} | [ ] ≈ ± `
-          • , é \u{0} ŧ µ ü ı œ þ ˙ ˜
-          ¯ ß ð ƒ \u{0} ħ ˝ ª ł ø æ '
-        ≤ ÷ đ ¸ ‹ › ‘ ’ ‚ … –
-      
-    deadKeys:
-      default: [´]
-      shift: ['`']
-      caps: [´]
-      alt: ['-', ., ¨, ¯, ¸, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˛, ˜, ˝]
-      alt+shift: [ʔ, №]
-      caps+alt: ['-', ., ¨, ¯, ¸, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˛, ˜, ˝]
-      cmd+alt: [',', ¯, ¸, ƒ, ˙, ˜, ˝]
-      
-    space:
-      caps: '\u{A0}'
-      alt: '\u{A0}'
-      alt+shift: '\u{A0}'
-      caps+alt: '\u{A0}'
-      cmd+alt: '\u{A0}'
+        ¶ © ™ £ $ ∞ § | [ ] ≈ ± ´
+          • Ω é ® † µ ü ı œ π ˙ ~
+           ß ∂ ƒ ¸ ˛ √ ª ﬁ ø æ @
+        ≤ ÷ ≈ ç ‹ › ‘ ’ ‚ … –
+      cmd+alt+shift: |
+        • ¡ ” ¥ ¢ ‰ ¶ \ { } ≠ ¿ `
+          ° ˝ É √ ‡ ˜ Ü ˆ Œ ∏ ˚ ^
+          ◊ ∑ ∆ ∫ ¯ ˘ ¬ º ﬂ Ø Æ ’
+        ≥ ⁄ ˇ Ç « » “ ” „ · —
         
 transforms:
   '-':
@@ -192,12 +166,6 @@ transforms:
     u: ʉ
     z: ƶ
     Z: Ƶ
-  ',':
-    ' ': ','
-    s: ș
-    S: Ș
-    t: ț
-    T: Ț
   .:
     ' ': .
     a: ạ
@@ -703,4 +671,36 @@ transforms:
     O: Õ
     u: ũ
     U: Ũ
-
+    
+space:
+  macos:
+    caps: '\u{A0}'
+    alt: '\u{A0}'
+    alt+shift: '\u{A0}'
+    caps+alt: '\u{A0}'
+    cmd+alt: '\u{A0}'
+    
+deadKeys:
+  macos:
+    default: [´]
+    shift: ['`']
+    caps: [´]
+    alt: ['-', ., ¨, ¯, ¸, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˛, ˜, ˝]
+    alt+shift: [ʔ, №]
+    caps+alt: ['-', ., ¨, ¯, ¸, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˛, ˜, ˝]
+    cmd+alt: [¸, ƒ, ˙]
+    
+  windows:
+    default: [´]
+    shift: ['`']
+    caps: [´]
+    caps+shift: ['`']
+    alt: ['~', ¨]
+    alt+shift: [^, ˇ]
+    
+targets:
+  windows:
+    locale: se-Latn-SE
+  chrome:
+    locale: sv
+    xkbLayout: se

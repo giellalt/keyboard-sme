@@ -180,15 +180,15 @@ longpress:
   '"': '„ “ ” « »'
   '''': '‚ ‘ ’'
 
-strings:
+keyNames:
   space: gaska
   return: "linnjá\u00ADmolsun"
+  
 targets:
   ios:
-    legacyName: northern_sami_keyboard
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-sme?platform=mobile
     spellerPath: se.bhfst
   android:
-    legacyName: northern_sami_keyboard
     spellerPackageKey: https://pahkat.uit.no/main/packages/speller-sme?platform=mobile
     spellerPath: se.bhfst
+
