@@ -60,7 +60,7 @@ windows:
       alt+shift: [^, ˇ]
       
 
-chrome:
+chromeOS:
   primary:
     config:
       locale: fi
