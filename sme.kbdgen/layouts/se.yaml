@@ -9,9 +9,9 @@ displayNames:
   da: Nordsamisk
   sv: Nordsamiska
 
-layers:
-  windows:
-    primary:
+windows:
+  primary:
+    layers:
       default: |
         § 1 2 3 4 5 6 7 8 9 0 + ´
           á š e r t y u i o p å ŋ
@@ -47,9 +47,13 @@ layers:
         \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
         \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
         \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-           
-  ios:
-    primary:
+        
+iOS:
+  config:
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-sme?platform=mobile
+    spellerPath: se.bhfst
+  primary:
+    layers:
       default: |
         á š e r t y u i o p ŋ
         a s d f g h j k l đ ŧ
@@ -66,32 +70,36 @@ layers:
         [ ] { } # % ^ * + =
         _ \ | ~ < > € $ £ •
         \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
-    ipad-9in:
+      
+  iPad-9in:
+    layers:
       default: |
         \s{"`":0.75}  á š e r t y u i o p ŋ \s{backspace:1.25}
         \s{shift}     a s d f g h j k l đ ŧ \s{shift}
-        \s{spacer:0.5}  ž z č c v b n m , . \s{spacer:0.5} \s{return:2}
-      shift: |
-        \s{"@":0.75}  Á Š E R T Y U I O P Ŋ \s{backspace:1.25}
-        \s{shift}     A S D F G H J K L Đ Ŧ \s{shift}
-        \s{spacer:0.5}  Ž Z Č C V B N M ! ? \s{spacer:0.5} \s{return:2}
-      alt: |
-        \s{"@":0.75}  1 2 3  4 5 6 7 8 9 0 å \s{backspace:1.25}
-        \s{shift}     % # kr & * ( ) ' " ø æ \s{shift}
-        \s{spacer:0.5}  q w  x - = / ; : ! ? \s{spacer:0.5} \s{return:2}
-      alt+shift: |
-        \s{"@":0.75}  1 2 3  4 5 6 7 8 9 0 Å \s{backspace:1.25}
-        \s{shift}     % # kr & * ( ) ' " Ø Æ \s{shift}
-        \s{spacer:0.5}  Q W  X - = / ; : ! ? \s{spacer:0.5} \s{return:2}
-      symbols-1: |
-        \s{spacer:0.75} 1 2 3 4 5 6 7 8 9 0 ` \s{backspace:1.25}
-        \s{shiftSymbols} @ # kr & * ( ) ' " + • \s{shiftSymbols}
-        \s{spacer:1.5} % _ - = / ; : , . \s{spacer:0.5} \s{return:2}
-      symbols-2: |
-        \s{spacer:0.75}  1 2 3 4 5 6 7 8 9 0 ´ \s{backspace:1.25}
-        \s{shiftSymbols} € $ £ ^ [ ] { } — ° … \s{shiftSymbols}
-        \s{spacer:1.5}    § | ~ ≠ \ < > ! ?    \s{spacer:0.5} \s{return:2}
-    ipad-12in:
+          \s{spacer:0.5}  ž z č c v b n m , . \s{spacer:0.5} \s{return:2}
+        shift: |
+          \s{"@":0.75}  Á Š E R T Y U I O P Ŋ \s{backspace:1.25}
+          \s{shift}     A S D F G H J K L Đ Ŧ \s{shift}
+          \s{spacer:0.5}  Ž Z Č C V B N M ! ? \s{spacer:0.5} \s{return:2}
+        alt: |
+          \s{"@":0.75}  1 2 3  4 5 6 7 8 9 0 å \s{backspace:1.25}
+          \s{shift}     % # kr & * ( ) ' " ø æ \s{shift}
+          \s{spacer:0.5}  q w  x - = / ; : ! ? \s{spacer:0.5} \s{return:2}
+        alt+shift: |
+          \s{"@":0.75}  1 2 3  4 5 6 7 8 9 0 Å \s{backspace:1.25}
+          \s{shift}     % # kr & * ( ) ' " Ø Æ \s{shift}
+          \s{spacer:0.5}  Q W  X - = / ; : ! ? \s{spacer:0.5} \s{return:2}
+        symbols-1: |
+          \s{spacer:0.75} 1 2 3 4 5 6 7 8 9 0 ` \s{backspace:1.25}
+          \s{shiftSymbols} @ # kr & * ( ) ' " + • \s{shiftSymbols}
+          \s{spacer:1.5} % _ - = / ; : , . \s{spacer:0.5} \s{return:2}
+        symbols-2: |
+          \s{spacer:0.75}  1 2 3 4 5 6 7 8 9 0 ´ \s{backspace:1.25}
+          \s{shiftSymbols} € $ £ ^ [ ] { } — ° … \s{shiftSymbols}
+          \s{spacer:1.5}    § | ~ ≠ \ < > ! ?    \s{spacer:0.5} \s{return:2}
+    
+  iPad-12in:
+    layers:
       default: |
         ' 1 2 3 4 5 6 7 8 9 0 + ´ \s{backspace:1.5}
         \s{spacer:1.5} á š e r t y u i o p å ŋ đ
@@ -117,9 +125,13 @@ layers:
         \s{spacer:1.5} [ ] { } # % ^ * + = \ | ~
         \s{spacer:1.75} - / : ; ( ) kr & @ $ £ \s{return:1.75}
         \s{spacer:3.25} … . , ? ! ' " _ € \s{spacer:2.25}
-        
-  android:
-    primary:
+
+android:
+  config:
+    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-sme?platform=mobile
+    spellerPath: se.bhfst
+  primary:
+    layers:
       default: |
         á š e r t y u i o p ŋ
         a s d f g h j k l đ ŧ
@@ -128,7 +140,7 @@ layers:
         Á Š E R T Y U I O P Ŋ
         A S D F G H J K L Đ Ŧ
            Ž Z Č C V B N M
-        
+
 longpress:
   A:   Å Æ Ä   À Â Ã Ā Ạ
   Á: Q
@@ -183,12 +195,4 @@ longpress:
 keyNames:
   space: gaska
   return: "linnjá\u00ADmolsun"
-  
-targets:
-  ios:
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-sme?platform=mobile
-    spellerPath: se.bhfst
-  android:
-    spellerPackageKey: https://pahkat.uit.no/main/packages/speller-sme?platform=mobile
-    spellerPath: se.bhfst
 

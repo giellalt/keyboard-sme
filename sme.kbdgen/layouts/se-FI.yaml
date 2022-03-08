@@ -11,9 +11,9 @@ displayNames:
   se-FI: Davvisámegiella (Suopma)
   
 windows:
+  config:
+    locale: se-Latn-FI
   primary:
-    config:
-      locale: se-Latn-FI
     layers:
       default: |
         § 1 2 3 4 5 6 7 8 9 0 + ´
@@ -61,9 +61,9 @@ windows:
       
 
 chromeOS:
+  config:
+    locale: fi
   primary:
-    config:
-      locale: fi
     layers:
       default: |
         § 1 2 3 4 5 6 7 8 9 0 + ´
@@ -101,7 +101,7 @@ chromeOS:
         \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
         \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
     
-macos:
+macOS:
   primary:
     layers:
       default: |

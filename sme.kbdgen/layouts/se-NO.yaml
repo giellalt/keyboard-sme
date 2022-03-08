@@ -10,9 +10,9 @@ displayNames:
   sv: Nordsamiska (Norge)
   se-NO: Davvisámegiella (Norga)
   
-layers:
-  windows:
-    primary:
+windows:
+  primary:
+    layers:
       default: |
         | 1 2 3 4 5 6 7 8 9 0 + \
         á š e r t y u i o p å ŋ
@@ -43,9 +43,16 @@ layers:
         Q W \u{0} \u{0} Ŧ \u{0} \u{0} Ï Õ \u{0} ^ ˇ
         Â \u{0} \u{0} \u{0} Ǧ Ǥ \u{0} Ǩ \u{0} Ö Ä *
         Ǯ Ʒ X \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+    deadKeys:
+      shift: ['`']
+      caps+shift: ['`']
+      alt: ['~', ¨, ´]
+      alt+shift: [^, ˇ]
       
-  chrome:
-    primary:
+  
+chrome:
+  primary:
+    layers:
       default: |
         | 1 2 3 4 5 6 7 8 9 0 + \
         á š e r t y u i o p å ŋ
@@ -76,9 +83,10 @@ layers:
         Q W \u{0} \u{0} Ŧ \u{0} \u{0} Ï Õ \u{0} ^ ˇ
         Â \u{0} \u{0} \u{0} Ǧ Ǥ \u{0} Ǩ \u{0} Ö Ä *
         Ǯ Ʒ X \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-      
-  macos:
-    primary:
+  
+macOS:
+  primary:
+    layers:
       default: |
         ' 1 2 3 4 5 6 7 8 9 0 + ´
           á š e r t y u i o p å ŋ
@@ -134,7 +142,21 @@ layers:
           ° ˝     É \u{0} ‡ ˜ Ü ˆ Œ ∏ ˚ ^
           ◊ ∑     ∆ ∫     ¯ ˘ ¬ º ﬂ Ö Ä \u{0}
         ≥ ⁄ \u{0} Ç «     » “ ” „ · —
-  
+    deadKeys:
+      default: [´]
+      shift: ['`']
+      caps: [´]
+      alt: ['-', ¨, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
+      alt+shift: [ʔ, №]
+      caps+alt: ['-', ¸, ƒ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
+      cmd+alt: [¸, ƒ, ˙]
+    space:
+      caps: '\u{A0}'
+      alt: '\u{A0}'
+      alt+shift: '\u{A0}'
+      caps+alt: '\u{A0}'
+      cmd+alt: '\u{A0}'
+      
 transforms:
   '-':
     ' ': '-'
@@ -563,33 +585,4 @@ transforms:
     O: Õ
     u: ũ
     U: Ũ
-    
-space:
-  macos:
-    caps: '\u{A0}'
-    alt: '\u{A0}'
-    alt+shift: '\u{A0}'
-    caps+alt: '\u{A0}'
-    cmd+alt: '\u{A0}'
-    
-deadKeys:
-  macos:
-    default: [´]
-    shift: ['`']
-    caps: [´]
-    alt: ['-', ¨, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
-    alt+shift: [ʔ, №]
-    caps+alt: ['-', ¸, ƒ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
-    cmd+alt: [¸, ƒ, ˙]
-  windows:
-    shift: ['`']
-    caps+shift: ['`']
-    alt: ['~', ¨, ´]
-    alt+shift: [^, ˇ]
-    
-targets:
-  windows:
-    locale: se-Latn-NO
-  chrome:
-    locale: "nb"
-    xkbLayout: "no"
+
