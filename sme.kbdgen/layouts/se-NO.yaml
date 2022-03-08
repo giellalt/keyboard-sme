@@ -43,11 +43,11 @@ windows:
         Q W \u{0} \u{0} Ŧ \u{0} \u{0} Ï Õ \u{0} ^ ˇ
         Â \u{0} \u{0} \u{0} Ǧ Ǥ \u{0} Ǩ \u{0} Ö Ä *
         Ǯ Ʒ X \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
-    deadKeys:
-      shift: ['`']
-      caps+shift: ['`']
-      alt: ['~', ¨, ´]
-      alt+shift: [^, ˇ]
+  deadKeys:
+    shift: ['`']
+    caps+shift: ['`']
+    alt: ['~', ¨, ´]
+    alt+shift: [^, ˇ]
       
   
 chrome:
@@ -142,20 +142,20 @@ macOS:
           ° ˝     É \u{0} ‡ ˜ Ü ˆ Œ ∏ ˚ ^
           ◊ ∑     ∆ ∫     ¯ ˘ ¬ º ﬂ Ö Ä \u{0}
         ≥ ⁄ \u{0} Ç «     » “ ” „ · —
-    deadKeys:
-      default: [´]
-      shift: ['`']
-      caps: [´]
-      alt: ['-', ¨, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
-      alt+shift: [ʔ, №]
-      caps+alt: ['-', ¸, ƒ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
-      cmd+alt: [¸, ƒ, ˙]
-    space:
-      caps: '\u{A0}'
-      alt: '\u{A0}'
-      alt+shift: '\u{A0}'
-      caps+alt: '\u{A0}'
-      cmd+alt: '\u{A0}'
+  deadKeys:
+    default: [´]
+    shift: ['`']
+    caps: [´]
+    alt: ['-', ¨, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
+    alt+shift: [ʔ, №]
+    caps+alt: ['-', ¸, ƒ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˝]
+    cmd+alt: [¸, ƒ, ˙]
+  space:
+    caps: '\u{A0}'
+    alt: '\u{A0}'
+    alt+shift: '\u{A0}'
+    caps+alt: '\u{A0}'
+    cmd+alt: '\u{A0}'
       
 transforms:
   '-':
