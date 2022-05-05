@@ -49,8 +49,10 @@ windows:
     alt: ['~', ¨, ´]
     alt+shift: [^, ˇ]
       
-  
-chrome:
+chromeOS:
+  config:
+    locale: 'no'
+    xkbLayout: se
   primary:
     layers:
       default: |
