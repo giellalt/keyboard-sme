@@ -96,11 +96,11 @@ android:
       default: |
         á š e r t y u i o p ŋ
         a s d f g h j k l đ ŧ
-           ž z č c v b n m
+        \s{shift} ž z č c v b n m \s{backspace}
       shift: |
         Á Š E R T Y U I O P Ŋ
         A S D F G H J K L Đ Ŧ
-           Ž Z Č C V B N M
+        \s{shift} Ž Z Č C V B N M \s{backspace}
 
 longpress:
   A:   Å Æ Ä   À Â Ã Ā Ạ
