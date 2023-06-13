@@ -2,5 +2,5 @@ codeSignId: 'Developer ID Installer: The University of Tromso (2K5J2584NX)'
 provisioningProfileId: Test
 packageId: no.uit.giella.keyboards.sme
 bundleName: North Sami Keyboard
-version: 1.0.4
+version: 1.0.5
 build: 1
