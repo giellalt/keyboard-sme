@@ -169,7 +169,7 @@ keyNames:
 #    next: boahtte           # when pressing the return key takes you to the next field or similar
 #    route: ruvtu         # when pressing the return key finds a route or some direction to go
 #  undo: gađa # or "symbol"
-#  redo: daga ođđasit # or "symbol"
+#  redo: gearddut # or "symbol"
 
 # When the string "symbol" is specified above, an OS specific symbol is used. For "return" that is typically ⏎,
 # for the other keys it is other symbols. "symbol" can be used both in cases where the word is too long to fit
