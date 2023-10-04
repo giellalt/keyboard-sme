@@ -74,12 +74,12 @@ iOS:
         \s{shift}        Q W  X ! ? / ; : Æ   \s{shift:2.5}
       symbols-1: |
         1                2 3  4 5 6 7 8 9 0 ` \s{backspace:1}
-        \s{spacer:0.3} @ # kr & * ( ) ' " + • \s{return:1.7}
-        \s{shiftSymbols:2} %  _ - = / ; : , . \s{shiftSymbols:2.5}
+        \s{spacer:0.3} @ # kr & * ( ) ' " +   \s{return:1.7}
+        \s{shiftSymbols} % _  - = / ; : , .   \s{shiftSymbols:2.5}
       symbols-2: |
         1                2 3  4 5 6 7 8 9 0 ´ \s{backspace:1}
-        \s{spacer:0.3} € $ £  ^ [ ] { } — ° … \s{return:1.7}
-        \s{shiftSymbols:2} §  | ~ ≠ \ < > ! ? \s{shiftSymbols:2.5}
+        \s{spacer:0.3} € $ £  ^ [ ] { } — °   \s{return:1.7}
+        \s{shiftSymbols} § |  ~ ≠ \ < > ! ?   \s{shiftSymbols:2.5}
   iPad-12in:
     layers:
       default: |
@@ -150,7 +150,7 @@ longpress:
   '&': §
   '?': ¿
   '!': ¡
-  '.': ', ; : ? ! ¿ ¡'
+  '.': ', ; : ? ! ¿ ¡ …'
   '"': „ “ ” « »
   "'": ‚ ‘ ’
 
