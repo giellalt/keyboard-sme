@@ -15,9 +15,9 @@ android:
   primary:
     layers:
       default: |
-        á š e r t y u i o p ŋ
-        a s d f g h j k l đ ŧ
-        \s{shift} ž z č c v b n m \s{backspace}
+        á         š e r t y u i o p ŋ
+        a         s d f g h j k l đ ŧ
+        \s{shift} ž z č c v b n m     \s{backspace}
       shift: |
         Á Š E R T Y U I O P Ŋ
         A S D F G H J K L Đ Ŧ
