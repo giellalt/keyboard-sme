@@ -158,19 +158,15 @@ keyNames:
   space: gaska
   return: "linnjá\u00ADmolsun"
 #  return-alts:
-#    search: oza  # when pressing the return key triggers a search
-#    go: raba  # when pressing the return key goes to or opens a URL
-#    send: sádde      # when pressing the return key sends e.g. an instant message
-#    join: searvva      # when pressing the return key joins a wifi net or similar
-#    cancel: hilggo  # when pressing the return key cancels an action
-#    continue: joatkke  # when pressing the return key continues a process
-#    done: geargan      # when pressing the return key finishes a process
-#    emergency: heahti # when pressing the return key triggers an emergency call
-#    next: boahtte           # when pressing the return key takes you to the next field or similar
-#    route: ruvtu         # when pressing the return key finds a route or some direction to go
-#  undo: gađa # or "symbol"
-#  redo: gearddut # or "symbol"
-
-# When the string "symbol" is specified above, an OS specific symbol is used. For "return" that is typically ⏎,
-# for the other keys it is other symbols. "symbol" can be used both in cases where the word is too long to fit
-# the key, or one can not find a suitable translation for the key.
+#    search: oza
+#    go: raba
+#    send: sádde
+#    join: searvva
+#    cancel: hilggo
+#    continue: joatkke
+#    done: geargan
+#    emergency: heahti
+#    next: boahtte
+#    route: ruvtu
+#  undo: gađa
+#  redo: gearddut
