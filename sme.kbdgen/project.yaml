@@ -18,11 +18,23 @@ locales:
       For Windows, macOS, Linux, ChromeOS, mobiltelefonar og nettbrett.
       Tilpassa for Finland, Noreg og Sverige.
   se:
-    name: Davvisámi boallobeavdi
+    name: Davvisámi boallobeavddit
     description: >-
-      Boallobeavdi davvisámegiela várás Divvun- ja Giellatekno-joavkkuin UiT:s.
+      Boallobeavddit davvisámegiela várás Divvun- ja Giellatekno-joavkkuin UiT:s.
       Doaibmá Windowsis, macOS:s, Linuxis, ChromeOS:s, mátketelefovnnain ja dihtordulbosiin.
-      Heivehuvvon Supmii, Norgii ja Ruŧŧii.
+      Heivehuvvon Norgii, Ruŧŧii ja Supmii.
+  sma:
+    name: Noerhtesaemien båaloebuertie
+    description: >-
+      Noerhtesaemien båaloebuertie UiT:n Divvun jïh Giellatekon-dåehkijste daelie
+      Windowsisnie, macOS:sne, Linuxisnie, ChromeOS:sne, mobiltelefovnide jïh
+      nehtepreerjine jåhta. Nöörjese, Soemese jïh Sveerjese sjïehtesjovveme.
+  smj:
+    name: Nuorttasáme boallobievde
+    description: >-
+      Nuorttasáme boallobievde UiT:a Divvun- ja Giellatekno-juohkusijs.
+      Windowsij, macOS:aj, Linuxij, ChromeOS:aj, mobijlajda ja pettajda.
+      Hiebaduvvam Vuodnaj, Svierigij ja Suobmaj.
   sv:
     name: Nordsamiska tangentbord
     description: >-
