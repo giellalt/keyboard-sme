@@ -1,37 +1,67 @@
-# Layouts for North Sámi
+---
+layout: default
+---
 
-**Legend:**
+# Keyboard layouts for SME / sme
 
-| Mode       | Default | AltGr/Option | Caps Lock (Mode Switch) | Caps Lock + AltGr/Option |
-| ----------:|:-------:|:------------:|:-----------------------:|:------------------------:|
-|**Standard**| black   | red          | blue                    | purple                   |
-|**Deadkey** | green   | orange       | pink                    | green                    |
+> Tip: These keyboards are interactive — click or tap keys to explore different layers (Shift, Alt, etc.)
 
+## Mac (Suopma)
 
-# Davvisámegiella, Suopma (macOS)
+<iframe src="https://keyboard.giellalt.org/embed?kbd=sme&layout=se-FI&platform=macOS&variant=primary"></iframe>
 
-![Alt text](sme_FI-mac.svg)
+## Windows (Suopma)
 
-# Davvisámegiella, Suopma (Windows)
+<iframe src="https://keyboard.giellalt.org/embed?kbd=sme&layout=se-FI&platform=windows&variant=primary"></iframe>
 
-![Alt text](sme_FI-windows.svg)
-  
-# Davvisámegiella, Norga (macOS)
+## ChromeOS (Suopma)
 
-![Alt text](sme_NO-mac.svg)
+<iframe src="https://keyboard.giellalt.org/embed?kbd=sme&layout=se-FI&platform=chromeOS&variant=primary"></iframe>
 
-# Davvisámegiella Norga (Windows)
+## Mac (Norga)
 
-![Alt text](sme_NO-windows.svg)
+<iframe src="https://keyboard.giellalt.org/embed?kbd=sme&layout=se-NO&platform=macOS&variant=primary"></iframe>
 
-# Davvisámegiella, Ruoŧŧa (macOS)
+## Windows (Norga)
 
-![Alt text](sme_SE-mac.svg)
+<iframe src="https://keyboard.giellalt.org/embed?kbd=sme&layout=se-NO&platform=windows&variant=primary"></iframe>
 
-# Davvisámegiella, Ruoŧŧa (Windows)
+## ChromeOS (Norga)
 
-![Alt text](sme_SE-windows.svg)
+<iframe src="https://keyboard.giellalt.org/embed?kbd=sme&layout=se-NO&platform=chromeOS&variant=primary"></iframe>
 
-# Davvisámegiella (12" iPad)
+## Mac (Ruoŧŧa)
 
-![Alt text](sme_keyboard.svg)
+<iframe src="https://keyboard.giellalt.org/embed?kbd=sme&layout=se-SE&platform=macOS&variant=primary"></iframe>
+
+## Windows (Ruoŧŧa)
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=sme&layout=se-SE&platform=windows&variant=primary"></iframe>
+
+## ChromeOS (Ruoŧŧa)
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=sme&layout=se-SE&platform=chromeOS&variant=primary"></iframe>
+
+## Android
+
+### Phone
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=sme&layout=se&platform=android&variant=primary"></iframe>
+
+### Tablet
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=sme&layout=se&platform=android&variant=tablet-600"></iframe>
+
+## iOS/iPadOS
+
+### iPhone
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=sme&layout=se&platform=iOS&variant=primary"></iframe>
+
+### 9" iPad
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=sme&layout=se&platform=iOS&variant=iPad-9in"></iframe>
+
+### 12" iPad
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=sme&layout=se&platform=iOS&variant=iPad-12in"></iframe>
