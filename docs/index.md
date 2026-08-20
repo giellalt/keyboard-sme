@@ -1,9 +1,9 @@
 # Documentation for the Northern Sami keyboards
 
-# Layouts
+## Layouts
 
--   [Layout overview](layout.html)
+- [Layout overview](layout.md)
 
-# Other information
+## Other information
 
 Add text and links as necessary.
