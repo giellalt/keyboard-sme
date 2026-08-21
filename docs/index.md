@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Documentation for the Northern Sami keyboards
 
 ## Layouts
